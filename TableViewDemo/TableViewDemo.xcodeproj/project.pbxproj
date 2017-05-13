@@ -13,6 +13,7 @@
 		1A78AC9C1EC6EE6D00E461C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A78AC9A1EC6EE6D00E461C9 /* Main.storyboard */; };
 		1A78AC9E1EC6EE6D00E461C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A78AC9D1EC6EE6D00E461C9 /* Assets.xcassets */; };
 		1A78ACA11EC6EE6D00E461C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A78AC9F1EC6EE6D00E461C9 /* LaunchScreen.storyboard */; };
+		1A78ACA91EC7095E00E461C9 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A78ACA81EC7095E00E461C9 /* creme_brelee.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1A78AC9D1EC6EE6D00E461C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A78ACA01EC6EE6D00E461C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A78ACA21EC6EE6D00E461C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A78ACA81EC7095E00E461C9 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = ../../../../../../Downloads/creme_brelee.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1A78AC901EC6EE6D00E461C9 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A78ACA81EC7095E00E461C9 /* creme_brelee.jpg */,
 				1A78AC941EC6EE6D00E461C9 /* AppDelegate.h */,
 				1A78AC951EC6EE6D00E461C9 /* AppDelegate.m */,
 				1A78AC971EC6EE6D00E461C9 /* ViewController.h */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A78ACA11EC6EE6D00E461C9 /* LaunchScreen.storyboard in Resources */,
+				1A78ACA91EC7095E00E461C9 /* creme_brelee.jpg in Resources */,
 				1A78AC9E1EC6EE6D00E461C9 /* Assets.xcassets in Resources */,
 				1A78AC9C1EC6EE6D00E461C9 /* Main.storyboard in Resources */,
 			);
