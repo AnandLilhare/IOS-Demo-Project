@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PrepTime</key>
+	<array/>
+	<key>50 min</key>
+	<string></string>
+	<key>40 min</key>
+	<string></string>
+	<key>30 min</key>
+	<string></string>
+	<key>20 min</key>
+	<string></string>
+	<key>10 min</key>
+	<string></string>
+	<key>Thumbnail </key>
+	<array/>
+	<key>creme_brelee.jpg</key>
+	<string></string>
+	<key>RecipeName</key>
+	<array/>
+	<key>New item</key>
+	<string></string>
+	<key>Ham and Egg Sandwich</key>
+	<string></string>
+	<key>Hamburger</key>
+	<string></string>
+	<key>Full Breakfast</key>
+	<string></string>
+	<key>Egg Benedict</key>
+	<string></string>
+	<key>Mushroom Risotto</key>
+	<string></string>
+</dict>
+</plist>

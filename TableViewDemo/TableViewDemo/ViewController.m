@@ -22,11 +22,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     // Initialize table data
-     tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];
+    // Find out the path of recipes.plist
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"recipes" ofType:@"plist"];
+    
+    // Load the file content and read the data into arrays
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    tableData = [dict objectForKey:@"RecipeName"];
+   // thumbnails = [dict objectForKey:@"Thumbnail"];
+    prepTime = [dict objectForKey:@"PrepTime"];
     
     // Initialize thumbnails
-    thumbnails = [NSArray arrayWithObjects:@"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", nil];
-     prepTime = [NSArray arrayWithObjects:@"10 min", @"20 min", @"55 min", @"34 min", @"78 min", @"10 min", @"20 min", @"55 min", @"34 min", @"10 min", @"20 min", @"55 min", @"34 min", @"10 min", @"20 min", @"55 min", nil];
+   thumbnails = [NSArray arrayWithObjects:@"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", @"creme_brelee.jpg", nil];
+//     prepTime = [NSArray arrayWithObjects:@"10 min", @"20 min", @"55 min", @"34 min", @"78 min", @"10 min", @"20 min", @"55 min", @"34 min", @"10 min", @"20 min", @"55 min", @"34 min", @"10 min", @"20 min", @"55 min", nil];
 }
 
 
