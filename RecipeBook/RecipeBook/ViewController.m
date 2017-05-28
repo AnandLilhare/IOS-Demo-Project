@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "RecipeDetailViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,7 @@
 {
   NSArray *recipes;
 }
+@synthesize tableView;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -44,5 +45,12 @@
     
     cell.textLabel.text = [recipes objectAtIndex:indexPath.row];
     return cell;
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        RecipeDetailViewController *destViewController = segue.destinationViewController;
+        destViewController.recipeName = [recipes objectAtIndex:indexPath.row];
+    }
 }
 @end

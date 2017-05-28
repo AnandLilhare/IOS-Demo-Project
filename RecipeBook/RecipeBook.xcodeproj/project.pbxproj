@@ -13,6 +13,7 @@
 		1AC119FE1ED5316100F49DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC119FC1ED5316100F49DDB /* Main.storyboard */; };
 		1AC11A001ED5316100F49DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC119FF1ED5316100F49DDB /* Assets.xcassets */; };
 		1AC11A031ED5316100F49DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC11A011ED5316100F49DDB /* LaunchScreen.storyboard */; };
+		1AF8028D1EDB023D001B45EF /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8028C1EDB023D001B45EF /* RecipeDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1AC119FF1ED5316100F49DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AC11A021ED5316100F49DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AC11A041ED5316100F49DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF8028B1EDB023D001B45EF /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		1AF8028C1EDB023D001B45EF /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1AC11A011ED5316100F49DDB /* LaunchScreen.storyboard */,
 				1AC11A041ED5316100F49DDB /* Info.plist */,
 				1AC119F31ED5316100F49DDB /* Supporting Files */,
+				1AF8028B1EDB023D001B45EF /* RecipeDetailViewController.h */,
+				1AF8028C1EDB023D001B45EF /* RecipeDetailViewController.m */,
 			);
 			path = RecipeBook;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC119FB1ED5316100F49DDB /* ViewController.m in Sources */,
+				1AF8028D1EDB023D001B45EF /* RecipeDetailViewController.m in Sources */,
 				1AC119F81ED5316100F49DDB /* AppDelegate.m in Sources */,
 				1AC119F51ED5316100F49DDB /* main.m in Sources */,
 			);
@@ -309,6 +315,7 @@
 				1AC11A091ED5316100F49DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
