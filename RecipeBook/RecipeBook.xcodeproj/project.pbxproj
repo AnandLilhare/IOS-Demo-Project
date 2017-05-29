@@ -14,6 +14,9 @@
 		1AC11A001ED5316100F49DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC119FF1ED5316100F49DDB /* Assets.xcassets */; };
 		1AC11A031ED5316100F49DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC11A011ED5316100F49DDB /* LaunchScreen.storyboard */; };
 		1AF8028D1EDB023D001B45EF /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8028C1EDB023D001B45EF /* RecipeDetailViewController.m */; };
+		1AF802901EDBD863001B45EF /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8028F1EDBD863001B45EF /* AboutViewController.m */; };
+		1AF802931EDBDA24001B45EF /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AF802911EDBDA24001B45EF /* about.jpg */; };
+		1AF802941EDBDA24001B45EF /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 1AF802921EDBDA24001B45EF /* about.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		1AC11A041ED5316100F49DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF8028B1EDB023D001B45EF /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
 		1AF8028C1EDB023D001B45EF /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		1AF8028E1EDBD862001B45EF /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1AF8028F1EDBD863001B45EF /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1AF802911EDBDA24001B45EF /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = ../../../../../about/about.jpg; sourceTree = "<group>"; };
+		1AF802921EDBDA24001B45EF /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = ../../../../../about/about.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,8 @@
 		1AC119F21ED5316100F49DDB /* RecipeBook */ = {
 			isa = PBXGroup;
 			children = (
+				1AF802911EDBDA24001B45EF /* about.jpg */,
+				1AF802921EDBDA24001B45EF /* about.html */,
 				1AC119F61ED5316100F49DDB /* AppDelegate.h */,
 				1AC119F71ED5316100F49DDB /* AppDelegate.m */,
 				1AC119F91ED5316100F49DDB /* ViewController.h */,
@@ -72,6 +81,8 @@
 				1AC119F31ED5316100F49DDB /* Supporting Files */,
 				1AF8028B1EDB023D001B45EF /* RecipeDetailViewController.h */,
 				1AF8028C1EDB023D001B45EF /* RecipeDetailViewController.m */,
+				1AF8028E1EDBD862001B45EF /* AboutViewController.h */,
+				1AF8028F1EDBD863001B45EF /* AboutViewController.m */,
 			);
 			path = RecipeBook;
 			sourceTree = "<group>";
@@ -145,6 +156,8 @@
 				1AC11A031ED5316100F49DDB /* LaunchScreen.storyboard in Resources */,
 				1AC11A001ED5316100F49DDB /* Assets.xcassets in Resources */,
 				1AC119FE1ED5316100F49DDB /* Main.storyboard in Resources */,
+				1AF802941EDBDA24001B45EF /* about.html in Resources */,
+				1AF802931EDBDA24001B45EF /* about.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC119FB1ED5316100F49DDB /* ViewController.m in Sources */,
+				1AF802901EDBD863001B45EF /* AboutViewController.m in Sources */,
 				1AF8028D1EDB023D001B45EF /* RecipeDetailViewController.m in Sources */,
 				1AC119F81ED5316100F49DDB /* AppDelegate.m in Sources */,
 				1AC119F51ED5316100F49DDB /* main.m in Sources */,
